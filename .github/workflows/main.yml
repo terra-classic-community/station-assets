@@ -14,7 +14,9 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: CF_PAGES_URL=${{ env.CF_PAGES_URL }} npm run build
+      - run: npm run build
+        env:
+          CF_PAGES_URL: ${{ secrets.CF_PAGES_URL }}
       - uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.husky/*' --exclude 'node_modules/*' --exclude '.gitignore' --exclude '.prettierrc' --exclude 'README.md'
