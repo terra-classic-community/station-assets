@@ -1,2 +1,2 @@
-# station-assets
-🛰️ Assets for Station
+# rebel-station-assets
+🛰️ Assets for Rebel Station

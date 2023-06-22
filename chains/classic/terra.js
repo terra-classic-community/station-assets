@@ -34,10 +34,10 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/TerraClassic.svg',
   isClassic: true,
   explorer: {
-    address: 'https://finder.terra.money/classic/address/{}',
-    tx: 'https://finder.terra.money/classic/tx/{}',
-    validator: 'https://finder.terra.money/classic/validator/{}',
-    block: 'https://finder.terra.money/classic/block/{}',
+    address: 'https://finder.terrarebels.net/classic/address/{}',
+    tx: 'https://finder.terrarebels.net/classic/tx/{}',
+    validator: 'https://finder.terrarebels.net/classic/validator/{}',
+    block: 'https://finder.terrarebels.net/classic/block/{}',
   },
   tokens: [
     {

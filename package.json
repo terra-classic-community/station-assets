@@ -1,7 +1,7 @@
 {
-  "name": "station-assets",
+  "name": "rebel-station-assets",
   "version": "1.0.0",
-  "description": "🛰️ Assets for Station",
+  "description": "🛰️ Assets for Rebel Station",
   "main": "index.js",
   "scripts": {
     "build": "node legacy.js && node index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terra-money/station-assets.git"
+    "url": "git+https://github.com/terra-rebels/station-assets.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/terra-money/station-assets/issues"
+    "url": "https://github.com/terra-rebels/station-assets/issues"
   },
-  "homepage": "https://github.com/terra-money/station-assets#readme",
+  "homepage": "https://github.com/terra-rebels/station-assets#readme",
   "dependencies": {
     "@keplr-wallet/crypto": "^0.11.32",
     "@terra-money/feather.js": "^1.0.0-beta.8",
