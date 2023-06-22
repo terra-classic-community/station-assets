@@ -15,7 +15,7 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm run build
-        env:
+        with:
           CF_PAGES_URL: ${{ env.CF_PAGES_URL }}
       - uses: jakejarvis/s3-sync-action@v0.5.1
         with:
