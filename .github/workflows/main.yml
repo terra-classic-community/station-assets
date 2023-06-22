@@ -1,4 +1,4 @@
-name: Deploy Assets to S3
+name: Deploy Assets to Cloudflare S3
 
 on:
   push:
