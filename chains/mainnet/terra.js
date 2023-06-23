@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'columbus-5',
-  lcd: 'https://terra-classic-lcd.publicnode.com',
+  lcd: 'https://lcd.terrarebels.net',
   gasAdjustment: 5,
   gasPrices: {
     uluna: 28.325,
@@ -32,6 +32,7 @@ module.exports = {
   baseAsset: 'uluna',
   name: 'Terra Classic',
   icon: process.env.CF_PAGES_URL + '/img/chains/TerraClassic.svg',
+  alliance: false,
   explorer: {
     address: 'https://finder.terrarebels.net/classic/address/{}',
     tx: 'https://finder.terrarebels.net/classic/tx/{}',
