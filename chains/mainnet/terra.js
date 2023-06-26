@@ -32,6 +32,7 @@ module.exports = {
   baseAsset: 'uluna',
   name: 'Terra Classic',
   icon: process.env.CF_PAGES_URL + '/img/chains/TerraClassic.svg',
+  isClassic: true,
   alliance: false,
   explorer: {
     address: 'https://finder.terrarebels.net/classic/address/{}',
