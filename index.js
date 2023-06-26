@@ -82,7 +82,7 @@ const fs = require('fs').promises
         token: tokenId,
         chainID: Object.values(chains[network]).find(
           ({ prefix }) => prefix === 'terra'
-        ).chainID,
+        )?.chainID,
       }
 
       // add IBC denom on other chains
