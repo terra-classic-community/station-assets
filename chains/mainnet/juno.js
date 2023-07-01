@@ -2,27 +2,15 @@ module.exports = {
   chainID: 'juno-1',
   lcd: 'https://lcd-juno.mib.tech',
   gasAdjustment: 1.75,
-  gasPrices: { ujuno: 0.0750 },
+  gasPrices: { ujuno: 0.0025 },
   prefix: 'juno',
   coinType: '118',
   baseAsset: 'ujuno',
   name: 'Juno',
   icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
   ibc: {
-    fromTerra: 'channel-2',
-    toTerra: 'channel-86',
-    ics: {
-      contract:
-        'juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn',
-      toTerra: 'channel-154',
-      fromTerra: 'channel-33',
-    },
-    icsFromTerra: {
-      contract:
-        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      toTerra: 'channel-153',
-      fromTerra: 'channel-32',
-    },
+    fromTerra: 'channel-20',
+    toTerra: 'channel-27',
   },
   explorer: {
     address: 'https://www.mintscan.io/juno/account/{}',
@@ -98,7 +86,9 @@ module.exports = {
       token: 'juno1vaeuky9hqacenay9nmuualugvv54tdhyt2wsvhnjasx9s946hhmqaq3kh7',
       symbol: 'BFOT',
       name: 'Burned Fortis Oeconomia Token',
-      icon: process.env.CF_PAGES_URL + '/img/coins/BurnedFortis Oeconomia Token.png',
+      icon:
+        process.env.CF_PAGES_URL +
+        '/img/coins/BurnedFortis Oeconomia Token.png',
       decimals: 10,
     },
     {
@@ -294,7 +284,8 @@ module.exports = {
       token: 'juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf',
       symbol: 'SEASY',
       name: 'StakeEasy governance token',
-      icon: process.env.CF_PAGES_URL + '/img/coins/StakeEasygovernance token.png',
+      icon:
+        process.env.CF_PAGES_URL + '/img/coins/StakeEasygovernance token.png',
       decimals: 6,
     },
     {
@@ -350,7 +341,9 @@ module.exports = {
       token: 'juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w',
       symbol: 'ASVT',
       name: 'Another.Software Validator Token',
-      icon: process.env.CF_PAGES_URL + '/img/coins/Another.SoftwareValidator Token.png',
+      icon:
+        process.env.CF_PAGES_URL +
+        '/img/coins/Another.SoftwareValidator Token.png',
       decimals: 6,
     },
     {
@@ -533,13 +526,6 @@ module.exports = {
       symbol: 'PEPEC',
       name: 'Pepec',
       icon: process.env.CF_PAGES_URL + '/img/coins/Pepec.png',
-      decimals: 6,
-    },
-    {
-      token: 'juno12mcwmd6wqhledkjsurlfqtc8j0pedvxlcxw3gs4kh2qf808ehehsen8nmw',
-      symbol: 'YFD',
-      name: 'Y-Foundry DAO',
-      icon: process.env.CF_PAGES_URL + '/img/coins/Yfd.png',
       decimals: 6,
     },
   ],
