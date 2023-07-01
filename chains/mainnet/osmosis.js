@@ -9,8 +9,8 @@ module.exports = {
   name: 'Osmosis',
   icon: process.env.CF_PAGES_URL + '/img/chains/Osmosis.svg',
   ibc: {
-    toTerra: 'channel-72',
     fromTerra: 'channel-1',
+    toTerra: 'channel-72',
     // icsFromTerra: {
     //   contract:
     //     'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',

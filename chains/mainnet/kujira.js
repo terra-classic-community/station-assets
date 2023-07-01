@@ -23,16 +23,16 @@ module.exports = {
   baseAsset: 'ukuji',
   name: 'Kujira',
   icon: process.env.CF_PAGES_URL + '/img/chains/Kujira.png',
-  // ibc: {
-  //   fromTerra: 'channel-10',
-  //   toTerra: 'channel-5',
-  //   icsFromTerra: {
-  //     contract:
-  //       'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-  //     toTerra: 'channel-36',
-  //     fromTerra: 'channel-28',
-  //   },
-  // },
+  ibc: {
+    fromTerra: 'channel-71',
+    toTerra: 'channel-71',
+    // icsFromTerra: {
+    //   contract:
+    //     'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+    //   toTerra: 'channel-36',
+    //   fromTerra: 'channel-28',
+    // },
+  },
   alliance: true,
   explorer: {
     address: 'https://www.mintscan.io/kujira/account/{}',
