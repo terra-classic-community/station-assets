@@ -9,8 +9,8 @@ module.exports = {
   name: 'Axelar',
   icon: process.env.CF_PAGES_URL + '/img/chains/Axelar.svg',
   ibc: {
-    fromTerra: 'channel-6',
-    toTerra: 'channel-11',
+    fromTerra: 'channel-19',
+    toTerra: 'channel-0',
   },
   explorer: {
     address: 'https://www.mintscan.io/axelar/account/{}',
