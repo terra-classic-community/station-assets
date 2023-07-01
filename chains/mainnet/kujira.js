@@ -24,8 +24,8 @@ module.exports = {
   name: 'Kujira',
   icon: process.env.CF_PAGES_URL + '/img/chains/Kujira.png',
   ibc: {
-    fromTerra: 'channel-71',
-    toTerra: 'channel-71',
+    // fromTerra: 'channel-71',
+    // toTerra: 'channel-71',
     // icsFromTerra: {
     //   contract:
     //     'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',

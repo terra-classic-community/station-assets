@@ -8,10 +8,10 @@ module.exports = {
   baseAsset: 'uatom',
   name: 'Cosmos',
   icon: process.env.CF_PAGES_URL + '/img/chains/Cosmos.svg',
-  ibc: {
-    fromTerra: 'channel-41',
-    toTerra: 'channel-299',
-  },
+  // ibc: {
+  //   fromTerra: 'channel-41',
+  //   toTerra: 'channel-299',
+  // },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',
     tx: 'https://www.mintscan.io/cosmos/txs/{}',
