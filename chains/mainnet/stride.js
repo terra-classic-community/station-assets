@@ -8,10 +8,10 @@ module.exports = {
   baseAsset: 'ustrd',
   name: 'Stride',
   icon: process.env.CF_PAGES_URL + '/img/chains/Stride.png',
-  ibc: {
-    fromTerra: 'channel-46',
-    toTerra: 'channel-52',
-  },
+  // ibc: {
+  //   fromTerra: 'channel-46',
+  //   toTerra: 'channel-52',
+  // },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',
     tx: 'https://www.mintscan.io/stride/txs/{}',

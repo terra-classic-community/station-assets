@@ -9,7 +9,6 @@ module.exports = {
   name: 'Terra',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
-  // doesn't require IBC channels since it's already on all the other chains
   explorer: {
     address: 'https://terrasco.pe/mainnet/address/{}',
     tx: 'https://terrasco.pe/mainnet/tx/{}',

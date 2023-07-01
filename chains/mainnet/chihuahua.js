@@ -8,10 +8,10 @@ module.exports = {
   baseAsset: 'uhuahua',
   name: 'Chihuahua',
   icon: process.env.CF_PAGES_URL + '/img/chains/Huahua.png',
-  ibc: {
-    fromTerra: 'channel-44',
-    toTerra: 'channel-34',
-  },
+  // ibc: {
+  //   fromTerra: 'channel-44',
+  //   toTerra: 'channel-34',
+  // },
   explorer: {
     address: 'https://www.mintscan.io/chihuahua/account/{}',
     tx: 'https://www.mintscan.io/chihuahua/txs/{}',

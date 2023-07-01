@@ -8,10 +8,10 @@ module.exports = {
   baseAsset: 'ncheq',
   name: 'cheqd',
   icon: process.env.CF_PAGES_URL + '/img/chains/Cheqd.svg',
-  ibc: {
-    fromTerra: 'channel-89',
-    toTerra: 'channel-9',
-  },
+  // ibc: {
+  //   fromTerra: 'channel-89',
+  //   toTerra: 'channel-9',
+  // },
   explorer: {
     address: 'https://explorer.cheqd.io/accounts/{}',
     tx: 'https://explorer.cheqd.io/transactions/{}',

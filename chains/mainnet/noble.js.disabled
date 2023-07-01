@@ -8,10 +8,10 @@ module.exports = {
   baseAsset: 'ustake',
   name: 'Noble',
   icon: process.env.CF_PAGES_URL + '/img/chains/Noble.svg',
-  ibc: {
-    toTerra: 'channel-9',
-    fromTerra: 'channel-151',
-  },
+  // ibc: {
+  //   toTerra: 'channel-9',
+  //   fromTerra: 'channel-151',
+  // },
   explorer: {
     address: 'https://www.mintscan.io/noble/account/{}',
     tx: 'https://www.mintscan.io/noble/txs/{}',

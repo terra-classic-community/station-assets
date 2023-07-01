@@ -10,10 +10,10 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Mars.svg',
   // used by Station to decide which endpoint to use
   version: '0.46',
-  ibc: {
-    fromTerra: 'channel-78',
-    toTerra: 'channel-2',
-  },
+  // ibc: {
+  //   fromTerra: 'channel-78',
+  //   toTerra: 'channel-2',
+  // },
   explorer: {
     address: 'https://explorer.marsprotocol.io/accounts/{}',
     tx: 'https://explorer.marsprotocol.io/transactions/{}',

@@ -8,10 +8,10 @@ module.exports = {
   baseAsset: 'ucmdx',
   name: 'Comdex',
   icon: process.env.CF_PAGES_URL + '/img/chains/Comdex.svg',
-  ibc: {
-    fromTerra: 'channel-39',
-    toTerra: 'channel-51',
-  },
+  // ibc: {
+  //   fromTerra: 'channel-39',
+  //   toTerra: 'channel-51',
+  // },
   explorer: {
     address: 'https://www.mintscan.io/comdex/account/{}',
     tx: 'https://www.mintscan.io/comdex/txs/{}',

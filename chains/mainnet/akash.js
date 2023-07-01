@@ -8,10 +8,10 @@ module.exports = {
   baseAsset: 'uakt',
   name: 'Akash',
   icon: process.env.CF_PAGES_URL + '/img/chains/Akash.svg',
-  ibc: {
-    fromTerra: 'channel-45',
-    toTerra: 'channel-56',
-  },
+  // ibc: {
+  //   fromTerra: 'channel-45',
+  //   toTerra: 'channel-56',
+  // },
   explorer: {
     address: 'https://www.mintscan.io/akash/account/{}',
     tx: 'https://www.mintscan.io/akash/txs/{}',
