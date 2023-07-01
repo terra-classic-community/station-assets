@@ -8,16 +8,16 @@ module.exports = {
   baseAsset: 'uosmo',
   name: 'Osmosis',
   icon: process.env.CF_PAGES_URL + '/img/chains/Osmosis.svg',
-  // ibc: {
-  //   toTerra: 'channel-251',
-  //   fromTerra: 'channel-1',
-  //   icsFromTerra: {
-  //     contract:
-  //       'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-  //     toTerra: 'channel-341',
-  //     fromTerra: 'channel-26',
-  //   },
-  // },
+  ibc: {
+    toTerra: 'channel-72',
+    fromTerra: 'channel-1',
+    // icsFromTerra: {
+    //   contract:
+    //     'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+    //   toTerra: 'channel-341',
+    //   fromTerra: 'channel-26',
+    // },
+  },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',
     tx: 'https://www.mintscan.io/osmosis/txs/{}',
