@@ -8,10 +8,10 @@ module.exports = {
   baseAsset: 'ujuno',
   name: 'Juno',
   icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
-  ibc: {
-    fromTerra: 'channel-3',
-    toTerra: 'channel-7',
-  },
+  // ibc: {
+  //   fromTerra: 'channel-20',
+  //   toTerra: 'channel-27',
+  // },
   explorer: {
     address: 'https://www.mintscan.io/juno/account/{}',
     tx: 'https://www.mintscan.io/juno/txs/{}',
