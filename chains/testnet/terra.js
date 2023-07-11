@@ -8,12 +8,13 @@ module.exports = {
   baseAsset: 'uluna',
   name: 'Terra Classic',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
+  isClassic: true,
   alliance: false,
   explorer: {
-    address: 'https://finder.terrarebels.dev/testnet/address/{}',
-    tx: 'https://finder.terrarebels.dev/testnet/tx/{}',
-    validator: 'https://finder.terrarebels.dev/testnet/validator/{}',
-    block: 'https://finder.terrarebels.dev/testnet/block/{}',
+    address: 'https://finder.terraclassic.community/testnet/address/{}',
+    tx: 'https://finder.terraclassic.community/testnet/tx/{}',
+    validator: 'https://finder.terraclassic.community/testnet/validator/{}',
+    block: 'https://finder.terraclassic.community/testnet/block/{}',
   },
   tokens: [
     {

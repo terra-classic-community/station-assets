@@ -35,10 +35,10 @@ module.exports = {
   isClassic: true,
   alliance: false,
   explorer: {
-    address: 'https://finder.terraclassic.community/address/{}',
-    tx: 'https://finder.terraclassic.community/tx/{}',
-    validator: 'https://finder.terraclassic.community/validator/{}',
-    block: 'https://finder.terraclassic.community/block/{}',
+    address: 'https://finder.terraclassic.community/mainnet/address/{}',
+    tx: 'https://finder.terraclassic.community/mainnet/tx/{}',
+    validator: 'https://finder.terraclassic.community/mainnet/validator/{}',
+    block: 'https://finder.terraclassic.community/mainnet/block/{}',
   },
   tokens: [
     {
