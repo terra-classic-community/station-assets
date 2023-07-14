@@ -34,6 +34,7 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/TerraClassic.svg',
   isClassic: true,
   alliance: false,
+  burnAddress: 'terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu',
   explorer: {
     address: 'https://finder.terraclassic.community/mainnet/address/{}',
     tx: 'https://finder.terraclassic.community/mainnet/tx/{}',
