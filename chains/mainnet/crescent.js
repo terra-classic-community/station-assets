@@ -9,8 +9,8 @@ module.exports = {
   name: 'Crescent',
   icon: process.env.CF_PAGES_URL + '/img/chains/Crescent.svg',
   ibc: {
-    fromTerra: 'channel-49',
-    toTerra: 'channel-0',
+    fromTerra: 'channel-67',
+    toTerra: 'channel-24',
   },
   explorer: {
     address: 'https://www.mintscan.io/crescent/account/{}',
