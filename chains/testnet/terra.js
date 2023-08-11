@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'rebel-2',
   lcd: 'https://lcd.terrarebels.dev',
   gasAdjustment: 3.5,
-  gasPrices: { uluna: 0.015 },
+  gasPrices: { uluna: 0.015, uusd: 0.75 },
   prefix: 'terra',
   coinType: '330',
   baseAsset: 'uluna',
@@ -10,6 +10,7 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   isClassic: true,
   alliance: false,
+  burnAddress: 'terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu',
   explorer: {
     address: 'https://finder.terraclassic.community/testnet/address/{}',
     tx: 'https://finder.terraclassic.community/testnet/tx/{}',
@@ -19,9 +20,9 @@ module.exports = {
   tokens: [
     {
       token: 'uluna',
-      symbol: 'LUNA',
-      name: 'Terra Luna',
-      icon: process.env.CF_PAGES_URL + '/img/coins/Luna.svg',
+      symbol: 'LUNC',
+      name: 'Luna Classic',
+      icon: process.env.CF_PAGES_URL + '/img/coins/LunaClassic.svg',
       decimals: 6,
     },
     {
