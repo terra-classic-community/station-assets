@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'rebel-2',
-  lcd: 'https://lcd.terrarebels.dev',
+  lcd: 'https://lcd.hexxagon.dev',
   gasAdjustment: 5,
   gasPrices: {
     uluna: 28.325,
@@ -36,10 +36,10 @@ module.exports = {
   alliance: false,
   burnAddress: 'terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu',
   explorer: {
-    address: 'https://finder.terraclassic.community/testnet/address/{}',
-    tx: 'https://finder.terraclassic.community/testnet/tx/{}',
-    validator: 'https://finder.terraclassic.community/testnet/validator/{}',
-    block: 'https://finder.terraclassic.community/testnet/block/{}',
+    address: 'https://finder.hexxagon.dev/testnet/address/{}',
+    tx: 'https://finder.hexxagon.dev/testnet/tx/{}',
+    validator: 'https://finder.hexxagon.dev/testnet/validator/{}',
+    block: 'https://finder.hexxagon.dev/testnet/block/{}',
   },
   tokens: [
     {
